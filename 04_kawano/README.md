@@ -10,7 +10,7 @@
 <ul class="list1" style="padding-left:16px;margin-left:16px"><li><a href="#taf036b7"> 遺伝子発現データベースに関する統合TV </a></li>
 <li><a href="#bb55f671"> BioGPS </a>
 <ul class="list2" style="padding-left:16px;margin-left:16px"><li><a href="#b7dd172e"> 【実習1】BioGPSを使ってある遺伝子の発現プロファイルを調べる </a></li></ul></li>
-<li><a href="#h21a5220"> RefEx? </a>
+<li><a href="#h21a5220"> RefEx </a>
 <ul class="list2" style="padding-left:16px;margin-left:16px"><li><a href="#d71c8bae"> 【実習2】RefEx を使って、組織特異的遺伝子を検索する </a></li></ul></li>
 <li><a href="#x426b06b"> DAVID: The Database for Annotation, Visualization and Integrated Discovery </a>
 <ul class="list2" style="padding-left:16px;margin-left:16px"><li><a href="#wd2c65be"> マイクロアレイデータの準備 </a></li>
@@ -66,7 +66,7 @@
 <ul class="list1" style="padding-left:16px;margin-left:16px"><li>【余談】
 <a href="http://biogps.org/iphone/" rel="nofollow">BioGPSのiPhoneアプリ</a>が無料で公開されていますので、「あの遺伝子はどの組織で発現してるのかな？」とふと調べたいときにお手持ちのiPhoneで遺伝子発現を調べられます。</li></ul>
 
-<h3 id="content_1_3"><a id="h21a5220" href="http://MotDB.DBCLS.jp/?AJACS36%2Fge#h21a5220" title="h21a5220"><span class="sanchor">_</span></a> <a href="http://refex.dbcls.jp/" rel="nofollow"><span style="font-size:20px;display:inline-block;line-height:130%;text-indent:0px"><span class="noexists">RefEx?</span></span></a>  </h3>
+<h3 id="content_1_3"><a id="h21a5220" href="http://MotDB.DBCLS.jp/?AJACS36%2Fge#h21a5220" title="h21a5220"><span class="sanchor">_</span></a> <a href="http://refex.dbcls.jp/" rel="nofollow"><span style="font-size:20px;display:inline-block;line-height:130%;text-indent:0px">RefEx</span></a>  </h3>
 <p><span style="color:green">ヒト、マウス、ラットの4つの異なる実験手法によって得られた40種類の正常組織における遺伝子発現リファレンスデータセット</span></p>
 <ul class="list1" style="padding-left:16px;margin-left:16px"><li><a href="http://refex.dbcls.jp/" rel="nofollow">RefEx </a>（Reference Expression dataset）は、ライフサイエンス統合データベースセンター（DBCLS）が提供する、4つの異なる実験手法（EST、GeneChip、CAGE、RNA-seq）によって得られた40種類の正常組織における遺伝子発現量を並列に表現することで、手法間の比較とともに各遺伝子の発現量を直感的に比較することが可能な、リファレンス(参照)データセットです。</li>
 <li>キーワード・遺伝子名検索では逐次的に検索語候補が提示される</li>
@@ -99,7 +99,8 @@
 
 <h3 id="content_1_6"><a id="wd2c65be" href="http://MotDB.DBCLS.jp/?AJACS36%2Fge#wd2c65be" title="wd2c65be">_</a> マイクロアレイデータの準備  </h3>
 <p>サンプルデータとして、<a href="http://www.ncbi.nlm.nih.gov/geo/" rel="nofollow">NCBI GEO</a>より取得した公共の遺伝子発現データを用います。このデータは、ある実験の前後の2群間で有意に発現減少した遺伝子群のリストです。</p>
-<div class="img_margin" style="text-align:left"><a href="http://MotDB.DBCLS.jp/?plugin=attach&amp;refer=AJACS24%2Fhono&amp;openfile=110208_IDlist.txt" title="2011/02/07 15:51:39 31.6KB"><img src="image/file.png" width="20" height="20" alt="file" style="border-width:0px" />110208_IDlist.txt</a></div>
+
+[110208_IDlist.txt](110208_IDlist.txt)
 
 <p>（右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
 <br class="spacer" />
@@ -126,8 +127,9 @@
 
 <li>[応用編] Pathways &gt; KEGG_PATHWAY や Tissue Expression &gt; UP_TISSUE なども見てみましょう。生物学的にどういうことが言えるでしょうか。
 <a name="plugin_fold_anchor2"></a>
-<div class="plugin_fold_title_plus" onclick="return plugin_fold_onclick(this,event,'plugin_fold_anchor2')"><p>サンプルデータの答え</p>
-</div>
+
+#### サンプルデータの答え
+
 <div class="plugin_fold_body"><p>Arabidopsis thaliana (シロイヌナズナ)の植物細胞と細胞壁分解酵素を用いて取り除いた植物細胞（<a href="http://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%88%E3%83%97%E3%83%A9%E3%82%B9%E3%83%88" rel="nofollow">プロトプラスト</a>）との比較（＝植物細胞の<a href="http://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AB%E3%82%B9_%28%E6%A4%8D%E7%89%A9%29" rel="nofollow">脱分化</a>前・後）</p>
 </div></li></ul>
 <hr class="full_hr" />
